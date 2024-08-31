@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center>
+        <img src="img/OIP.jfif" width="100px" height="100px">
+        <h1 style="font-family:Georgia, 'Times New Roman', Times, serif; font-size: 30pt; color: #3AA6B9;">COACHING CENTER</h1>
+        <h2 style="font-size: 25pt; font-family: Georgia, 'Times New Roman', Times, serif"><b>Register Online</b></h2>
+
+    </center>
+    <form>
+
+        <!-- Personal Information -->
+        <table width="500" border="0"  align="center" cellspacing="5" cellpadding="10">
+        <tr>
+            <th column-span="2"> Personal Information:</th>
+        </tr>
+
+        <tr>
+            <td width="250">Candidate's Name:</td>
+            <td><input type="text" required></td>
+        </tr>
+
+        <tr>
+            <td width="250">Father Name:</td>
+            <td><input type="text" required></td>
+        </tr>
+
+        <tr>
+            <td width="250">Mother Name:</td>
+            <td><input type="text" required></td>
+        </tr>
+
+        <tr>
+            <td width="250">Name of guardian:</td>
+            <td><input type="text" required></td>
+        </tr>
+
+
+        <tr>
+            <td width="250">Date of birth:</td>
+            <td><input type="date" required></td>
+        </tr>
+
+        <tr>
+            <td width="250">Gender:</td>
+            <td><input type="radio" name="gender">Male <input type="radio">Female</td>
+        </tr>
+        
+        <tr>
+            <td width="250">Age:</td>
+            <td><input type="number" min="5" max="25"></td>
+        </tr>
+
+
+        <tr>
+            <td width="250"> Home Address:</td>
+            <td><textarea rows="3" cols="25"></textarea></td>
+        </tr>
+
+        <tr>
+            <td width="250"> Home Telephone:</td>
+            <td><input type="tel"></td>
+        </tr>
+
+        <tr>
+            <td width="250">Candidate's Cell Number:</td>
+            <td><input type="tel"></td>
+        </tr>
+        </table>
+
+
+        <!-- Parent/Guardian Information -->
+       <table width="500" border="0" align="center"  cellspacing="5" cellpadding="10">
+        <tr>
+            <th column-span="2">Father/Guardian Information:</th>
+        </tr>
+       
+        <tr>
+            <td width="250">Father/Guardian Profession:</td>
+            <td><input type="text"></td>
+        </tr>
+
+        
+        <tr>
+            <td width="250">Office Name & Address:</td>
+            <td><textarea rows="3" cols="25"></textarea></td>
+        </tr>
+
+        <tr>
+            <td width="250">CNIC Number:</td>
+            <td><input type="tel"></td>
+        </tr>
+
+        <tr>
+            <td width="250">Cell Number:</td>
+            <td><input type="tel"></td>
+        </tr>
+       </table>
+
+        <!-- Educational Background -->
+        <table width="500" border="0" align="center" cellspacing="5" cellpadding="10">
+            <tr>
+                <th column-span="2">Educational Data:</th>
+            </tr>
+
+            <tr>
+                <td width="250">Current school or institution:</td>
+                <td><input type="text" ></td>
+            </tr>
+
+            <tr>
+                <td width="250">Grade the student is currently in:</td>
+                <td><input type="number" min="1" max="12"></td>
+            </tr>
+
+            <tr>
+                <td width="250">Subject:</td>
+                <td><input type="checkbox" >Science
+                    <input type="checkbox">Physics <br>
+                    <input type="checkbox">Math
+                    <input type="checkbox">Chemistry <br>
+                    <input type="checkbox">Computer Science <br>
+                    <input type="checkbox">Social Studies <br>
+                    <input type="checkbox">Urdu
+                    <input type="checkbox">English <br>
+            </tr>
+
+            <tr>
+                <td width="250" >Batch timings:</td>
+                <td><input type="radio" required>Morning
+                    <input type="radio">Afternoon
+                    <center><input type="radio">Evening</center>
+                </td>
+         </table>
+</form>
+
+    <br>
+    <center>
+    <form>
+        <!-- Your other form elements here -->
+        <input type="submit" value="Submit">
+    </form>
+    </center>
+
+        
+    </body>
+    </html>

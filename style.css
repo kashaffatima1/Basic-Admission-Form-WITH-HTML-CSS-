@@ -1,0 +1,19 @@
+td {
+    background-color: #FFD0D0;
+    color: black;
+    font-style:oblique;
+    font-size: 12pt;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+th {
+    color: white;
+    background: #FF9EAA;
+    text-align: center;
+}
+
+table {
+    width: 500; 
+    border: 0;
+    align-content: center; 
+}
